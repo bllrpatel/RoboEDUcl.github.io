@@ -11,7 +11,9 @@
   <script type="text/javascript" src="FileSaver.min.js"></script>
   <script type="text/javascript" src="blockly_helper.js"></script>
   <script type="text/javascript" src="../../blocks/robot.js"></script>
+  <script type="text/javascript" src="../../blocks/rf.js"></script>
   <script type="text/javascript" src="../../generators/arduino/robot.js"></script>
+  <script type="text/javascript" src="../../generators/arduino/rf.js"></script>
   <script>
 
 /**
@@ -402,6 +404,10 @@ function init() {
         <block type="makeright"></block>
         <block type="makeleft"></block>
         <block type="shootlaser"></block>
+    </category>
+    <category name="RF Communication">
+        <block type="rf_transmit"></block>
+        <block type="rf_rec"></block>
     </category>
   </xml>
 </body>

@@ -2,7 +2,7 @@
  * @license
  * Visual Blocks Editor
  *
- * Copyright 2012 Fred Lin.
+ * Copyright 2016 Hardik Patel.
  * https://github.com/gasolin/BlocklyDuino
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

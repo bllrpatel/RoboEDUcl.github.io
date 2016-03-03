@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <style>
         title { font-family: 'Oswald', sans-serif; font-weight: 400; }
     </style>
@@ -25,25 +25,48 @@
         margin: auto;
     }
     </style>
+    
+    <style>
+        h4.custom {
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        h3.custom{
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        div.image{
+            padding-top: 50px;
+        }
+        
+        div.sep{
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+    </style>
 
 </head>
     
 <body>  
-
-<nav class="navbar navbar-inverse">
+    
+<!------------------------------------------------------------------ NAVBAR ----------------------------------------------->
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">RoboEDU</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">The Nervous System</a></li>
-      <li><a href="#">The Muscular System</a></li>
-      <li><a href="#">Computational Thinking</a></li>
-      <li><a href="#">EMG Controlled Robot</a></li>
+      <li><a href="#CricketLab">The Nervous System</a></li>
+      <li><a href="#RxnTime">The Muscular System</a></li>
+      <li><a href="#RoboLight">Computational Thinking</a></li>
+      <li><a href="#Robo">EMG Controlled Robot</a></li>
     </ul>
   </div>
 </nav>
+<!------------------------------------------------------------------ NAVBAR ----------------------------------------------->
+
+<!------------------------------------------------------------------ CAROUSEL ----------------------------------------------->
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -111,6 +134,76 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       </a>
 </div>
+
+<!--------------------------------------------------- CAROUSEL ----------------------------------------------------------->
+
+<!------------------------------------------------------STATISTICS/ABOUT------------------------------------------>
+<div class="container">
+  <div class="col-sm-6" style="text-align: justify; color:#D3D3D3;">
+      <div class="image">
+      <h3 class="custom">The need for RoboEDU.</h3>
+      <h4 class="custom">According to research done by the University of Washington and the Bureau of Labor Statistics, 71 percent of all
+            future STEM jobs will be "computer occupations". After computer occupations, the next highest occuring job 
+            will be in the field of engineering at 15 percent. No other field even tops 4 percent. This shows a drastic change
+            in the current and future job market. But what are we doing to prepare the youth of our nation for this change?</h4>
+      <h4 class="custom">Only 5 percent of United States high schools teaches computer science, or has a robotics program. The state of 
+          computer science education is abysmal in the U.S., and as such students are not prepared to enter careers in the
+          field of computer science. Additionally, in the near future almost every field ranging from biology, finance, 
+          to anthropology will incorporate computer science and computational thinking.</h4>
+       <h4 class="custom">To address this issue, CityLab has designed a four part module which incorporates various topics from human 
+           physiology, computer science, to introductory robotics. This module serves as a platform to inspire and peek
+            the interests of students who think the field of engineering and computer science are out of reach. The first 
+            three modules will be done in a rotation style, each of which will last approximately 50 minutes. The last module
+             will be executed after lunch, which will last approximately 1.5 hours.</h4> 
+             </div>
+  </div>
+  <div class="col-sm-6">
+      <div class="image">
+      <img src="img/stat.png" alt="STAT" height="450" width="460">
+      </div>
+  </div>
+</div>
+<!------------------------------------------------------STATISTICS/ABOUT------------------------------------------>
+
+<!-----------------------------------------------------CricketLab------------------------------------------>
+<div id="CricketLab" style="color:#D3D3D3">
+    <div class="container">
+    <div class="sep">
+        <h3 class="custom">Effects of Nicotine and MSG on Neural Activity</h3>
+    </div>
+    </div>
+</div>
+<!-----------------------------------------------------CricketLab------------------------------------------>
+
+<!-----------------------------------------------------ReactionTime------------------------------------------>
+<div id="RxnTime" style="color:#D3D3D3">
+    <div class="container">
+    <div class="sep">
+        <h3 class="custom">Measuring Reaction Time</h3>
+    </div>
+    </div>
+</div>
+<!-----------------------------------------------------ReactionTime------------------------------------------>
+
+<!-----------------------------------------------------RoboLight------------------------------------------>
+<div id="RoboLight" style="color:#D3D3D3">
+    <div class="container">
+    <div class="sep">
+        <h3 class="custom">Introduction to Circuits and Computational Thinking</h3>
+    </div>
+    </div>
+</div>
+<!-----------------------------------------------------RoboLight------------------------------------------>
+
+<!-----------------------------------------------------Robo------------------------------------------>
+<div id="Robo" style="color:#D3D3D3">
+    <div class="container">
+    <div class="sep">
+        <h3 class="custom">EMG Controlled Robotic Vehicle</h3>
+    </div>
+    </div>
+</div>
+<!-----------------------------------------------------Robo------------------------------------------>
 
 </body>
 </html>
